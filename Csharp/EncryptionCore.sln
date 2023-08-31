@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionCore", "EncryptionCore\EncryptionCore.csproj", "{5021C2A2-5E60-412E-9BE6-3F83D63B6488}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryption.Api.IntegrationTest", "Encryption.IntegrationTest\Encryption.Api.IntegrationTest.csproj", "{F5FE1E9F-788C-4E0A-A9FC-11436DD9B424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryption.Api", "Encryption.Api\Encryption.Api.csproj", "{5152D63D-C5C3-4610-A258-7B7CE9D1749A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionCore.Test", "EncryptionCore.Test\EncryptionCore.Test.csproj", "{EF791DF5-7A96-4D63-B474-262F5E147496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5021C2A2-5E60-412E-9BE6-3F83D63B6488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5021C2A2-5E60-412E-9BE6-3F83D63B6488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5021C2A2-5E60-412E-9BE6-3F83D63B6488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5021C2A2-5E60-412E-9BE6-3F83D63B6488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FE1E9F-788C-4E0A-A9FC-11436DD9B424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FE1E9F-788C-4E0A-A9FC-11436DD9B424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FE1E9F-788C-4E0A-A9FC-11436DD9B424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FE1E9F-788C-4E0A-A9FC-11436DD9B424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5152D63D-C5C3-4610-A258-7B7CE9D1749A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5152D63D-C5C3-4610-A258-7B7CE9D1749A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5152D63D-C5C3-4610-A258-7B7CE9D1749A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5152D63D-C5C3-4610-A258-7B7CE9D1749A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF791DF5-7A96-4D63-B474-262F5E147496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF791DF5-7A96-4D63-B474-262F5E147496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF791DF5-7A96-4D63-B474-262F5E147496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF791DF5-7A96-4D63-B474-262F5E147496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FBE2BE5-E48D-4005-B53D-3FDD269BB7A4}
+	EndGlobalSection
+EndGlobal
